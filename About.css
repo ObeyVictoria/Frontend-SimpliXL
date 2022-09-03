@@ -1,0 +1,145 @@
+@import url('https://fonts.cdnfonts.com/css/axiforma')
+
+body {
+    font-family: Axiforma, sans-serif;
+    background-color: #e9ecef;
+}
+
+h1,h4 {
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.h21 {
+     color:#D2EBF9;
+     font-size: 41px;
+}
+/* styling navbar */
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: bold;
+    font-size: 17px;
+}
+.navbar {
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+#navul {
+    color: #52A7ED;
+}
+
+#navul2 {
+    color: white;
+}
+
+.btn {
+    padding: 1px 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-main {
+    background: #2691d9;
+    border-radius: 7px;
+    border: none;
+}
+
+/* styling about section*/
+.about-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/Office.png);
+}
+
+.bg-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.our-story {
+    background-color: azure;
+    font-weight: 600;
+    text-align: justify;
+    align-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.div1 {
+    min-height: 100vh;
+}
+
+.name {
+    border-radius: 27px 27px 0px 0px;
+  box-shadow: 0 12px 12px rgba(0,0,0,0.1);
+  font-weight: bold;
+  margin-top: -41px;  
+}
+
+.icon-line{
+  padding-top: 10px;
+  border-top: 0 solid #E9E9E9;
+  word-spacing: 10px;
+}
+
+#view {
+    background-color: #D2EBF9;
+    width: 130px;
+    height: 50px;
+}
+
+#signdwn {
+    width: 130px;
+    height: 50px;
+}
+
+p.display {
+    font-weight: 400;
+}
+
+footer {
+    background: #081d2b;
+}
+
+.footer a {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    color: white;
+    font-weight: 400;
+}
+
+#foot-text{
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+}
+
+#footer-email {
+    height: 45px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+
+#footer-email-btn {
+  background-color: #2691d9;
+  border: none;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+  height: 45px;
+  width: 30px;
+  padding-top: 2px;
+}
+
+#padding {
+    padding-right: 150px;
+}
