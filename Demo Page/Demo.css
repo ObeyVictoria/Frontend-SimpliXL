@@ -1,0 +1,126 @@
+* {
+    font-family: Axiforma, sans-serif;
+}
+
+h1 {
+    font-weight: 800 !important;
+    }
+
+h4 {
+    font-weight: 700;
+}
+
+/* styling navbar */
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: bold;
+}
+.navbar {
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+#navul {
+    color: #52A7ED;
+}
+
+#navul2 {
+    color: white;
+}
+
+.btn {
+    padding: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-main {
+    background: #2691d9;
+    border-radius: 7px;
+    border: none;
+}
+
+#line{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid #E9E9E9;
+}
+
+/*sec2*/
+.bold{
+    font-weight: bolder;
+}
+.list{
+    font-weight: 500;
+    font-size: 21px;
+}
+.small{
+    font-size: 17px;
+}
+/*sec4*/
+.padding{
+ padding-right: 70px;
+}
+.down-h1{
+    font-weight: 500;
+}
+/* footer*/
+
+footer {
+    background: #081d2b;
+}
+
+.footer a {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    color: white;
+    font-weight: 400;
+}
+
+#foot-text{
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+}
+
+#footer-email {
+  width: 80%;
+  height: 45px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  padding-left: 7px;
+}
+
+#footer-email-btn {
+   width: 35px;
+  background-color: #2691d9;
+  border: none;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+  height: 45px;
+  padding-top: 2px;
+}
+
+#padding {
+    padding-right: 80px;
+}
+h5{
+    font-weight: bold;
+}
+/* styling the colour dots*/
+.lemon{
+    position: absolute;
+    top: 29%;
+    left: 17%;
+}
+.purple{
+    position: absolute;
+    left: 96%;
+}
+.dark{
+    position: absolute;
+    left: 2%;
+    top: 235%;
+}
