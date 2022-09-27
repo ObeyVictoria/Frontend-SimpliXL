@@ -1,0 +1,52 @@
+* {
+    font-family: Axiforma, sans-serif;
+}
+
+h1 {
+    font-weight: 700 !important;
+}
+h2{
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+/* styling navbar */
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: bold;
+}
+.navbar {
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+#navul {
+    color: #52A7ED;
+}
+
+#navul2 {
+    color: white;
+}
+
+.btn {
+    padding: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-main {
+    background: #2691d9;
+    border-radius: 7px;
+    border: none;
+}
+/*section*/
+.btn-down{
+    border-radius: 7px;
+    border: none;
+}
+#decline{
+    color: #2691d9;
+    background-color: #D2EBF9;
+}

@@ -1,0 +1,76 @@
+* {
+    font-family: Axiforma, sans-serif;
+}
+
+h1 {
+    font-weight: 700 !important;
+}
+h2{
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+/* styling navbar */
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: bold;
+}
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#navul {
+    color: #52A7ED;
+}
+
+#navul2 {
+    color: white;
+}
+
+.btn {
+    padding: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-main {
+    background: #2691d9;
+    border-radius: 7px;
+    border: none;
+}
+/*sec1*/
+.sec1{
+    background-color: #d2ebf9;
+}
+.bold{
+    font-weight: bold;
+}
+.pr{
+    padding-right: 100px;
+}
+/*sec2*/
+h5{
+   font-weight: bold;
+}
+/*foot*/
+
+footer {
+    background: #081d2b;
+}
+.btn-foot{
+    border-radius: 8px;
+}
+#mail{
+    background-color: #081d2b;
+    border: 2px solid rgb(118, 118, 118);
+    width: 50%;
+}
+@media screen and (max-width: 850px){
+    #mail{
+        width: 100%;
+    }
+}
+

@@ -3,11 +3,14 @@
 }
 
 h1 {
-    font-weight: 800 !important;
-    }
+    font-weight: 700 !important;
+}
+h2{
+    font-weight: 600;
+}
 
-h4 {
-    font-weight: 700;
+h3 {
+    font-weight: bold;
 }
 
 /* styling navbar */
@@ -38,37 +41,26 @@ a {
     border-radius: 7px;
     border: none;
 }
-
-#line{
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 2px solid #E9E9E9;
+/*style sec2*/
+.div-card{
+    background-color: #F4F9FD;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
 }
 
-/*sec2*/
-#top-img{
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12);
-}
-.bold{
-    font-weight: bolder;
-}
-.list{
-    font-weight: 500;
-    font-size: 21px;
-}
-.small{
-    font-size: 17px;
-}
 /*sec4*/
-.padding{
- padding-right: 70px;
+.last-box{
+    background-color: #F4F9FD;
 }
-h2{
-    font-weight: 700 !important;
+.btn_down{
+    border: none;
+    background-color: black;
+    border-radius: 5px;
 }
-
-/* footer*/
+.lead{
+    font-weight: 500;
+}
+/*foot*/
 
 footer {
     background: #081d2b;
@@ -111,20 +103,5 @@ footer {
     padding-right: 80px;
 }
 h5{
-    font-weight: bold;
-}
-/* styling the colour dots*/
-.lemon{
-    position: absolute;
-    top: 29%;
-    left: 17%;
-}
-.purple{
-    position: absolute;
-    left: 96%;
-}
-.dark{
-    position: absolute;
-    left: 2%;
-    top: 235%;
+    font-weight: 700;
 }
